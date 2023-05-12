@@ -92,7 +92,6 @@ class GAME(object):
 				turn = turn + 1
 			elif turn % 2 == 1:
 				turn = turn - 1
-			# now change player
 
 
 def main():
