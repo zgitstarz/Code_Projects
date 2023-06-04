@@ -18,7 +18,6 @@ def hashfile(filename, algorithm):
     with open(filename, 'rb') as f:    
         chunk = f.read()
         hs.update(chunk)
-        hs.hexdigest()
 
     return hs.hexdigest()
 
